@@ -12,5 +12,11 @@ int main(void) {
     j++;
   }
 
+  int k = 1;
+  do {
+    printf("Stop world!\n");
+    k++;
+  } while (k < 2);
+
   return 0;
 }
